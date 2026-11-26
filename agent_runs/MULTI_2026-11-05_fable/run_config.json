@@ -1,0 +1,2 @@
+{"tickers": ["SPCX", "TSLA", "GLD", "GOOGL", "NVDA"], "from": "2026-11-05", "end": "2026-11-25",
+ "cash": 10000, "slippage_bps": 5, "bars": 40, "program": "papertrade_v1.3.py"}
