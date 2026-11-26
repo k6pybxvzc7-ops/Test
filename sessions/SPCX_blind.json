@@ -1,7 +1,7 @@
 {
   "ticker": "SPCX",
   "start": "2026-11-16",
-  "horizon": "2026-11-24",
+  "horizon": "2026-11-25",
   "csv": null,
   "pending": null,
   "stop": null,
@@ -124,6 +124,13 @@
       "detail": "{}",
       "why": "Flat; checking present boundary.",
       "logged_utc": "2026-11-26T03:06:36+00:00"
+    },
+    {
+      "horizon": "2026-11-25",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:08:51+00:00"
     }
   ],
   "revealed": [
@@ -182,11 +189,19 @@
       "low": 123.5199966430664,
       "close": 125.80999755859375,
       "volume": 104030800.0
+    },
+    {
+      "day": "2026-11-25",
+      "open": 118.47000122070312,
+      "high": 128.4499969482422,
+      "low": 112.93000030517578,
+      "close": 127.44000244140625,
+      "volume": 147273500.0
     }
   ],
-  "version": "1.1",
+  "version": "1.2",
   "account": {
-    "version": "1.1",
+    "version": "1.2",
     "created": "2026-11-26T03:05:22+00:00",
     "starting_cash": 10000.0,
     "cash": 9988.747843453815,
