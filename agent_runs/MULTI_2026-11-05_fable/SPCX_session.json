@@ -1,7 +1,7 @@
 {
   "ticker": "SPCX",
   "start": "2026-11-05",
-  "horizon": "2026-11-04",
+  "horizon": "2026-11-25",
   "csv": null,
   "pending": null,
   "stop": null,
@@ -14,9 +14,340 @@
       "detail": "cash $10,000.00, first tradable day >= 2026-11-05",
       "why": "",
       "logged_utc": "2026-11-26T03:41:53+00:00"
+    },
+    {
+      "horizon": "2026-11-04",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: lower highs since 10/21, 11/04 gapped down and closed 135.92 just above the 10/30 low 134.50 with ATR 5.7 pct; no confirmed base yet.",
+      "logged_utc": "2026-11-26T03:42:10+00:00"
+    },
+    {
+      "horizon": "2026-11-05",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:42:11+00:00"
+    },
+    {
+      "horizon": "2026-11-05",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/05 fell 9 pct to a new low 120.39 on 171M volume and closed 123.62 in the lower third; no reversal bar to lean on.",
+      "logged_utc": "2026-11-26T03:42:22+00:00"
+    },
+    {
+      "horizon": "2026-11-06",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:42:23+00:00"
+    },
+    {
+      "horizon": "2026-11-06",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/06 rebounded 8.6 pct to 134.27 but that only returns to the broken 134.5-136 area under the 11/04 bar; not chasing a one-day bounce in a downtrend.",
+      "logged_utc": "2026-11-26T03:42:44+00:00"
+    },
+    {
+      "horizon": "2026-11-09",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:42:46+00:00"
+    },
+    {
+      "horizon": "2026-11-09",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: two-day 15 pct rebound closed 142.07 right at the 142.05-143.20 highs of 11/02-11/09, which is resistance; no entry into supply after a large move.",
+      "logged_utc": "2026-11-26T03:43:01+00:00"
+    },
+    {
+      "horizon": "2026-11-10",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:03+00:00"
+    },
+    {
+      "horizon": "2026-11-10",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: third up day closed 143.09 after a 19 pct run from 120.39; price is stretched just above the 142-143 ceiling and any stop under 135.37 is too wide for the remaining upside.",
+      "logged_utc": "2026-11-26T03:43:21+00:00"
+    },
+    {
+      "horizon": "2026-11-11",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:22+00:00"
+    },
+    {
+      "horizon": "2026-11-11",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/11 rejected 145.16 and closed 139.75 near its 138.62 low on rising volume, a failed push above the 142-143 ceiling.",
+      "logged_utc": "2026-11-26T03:43:41+00:00"
+    },
+    {
+      "horizon": "2026-11-12",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:42+00:00"
+    },
+    {
+      "horizon": "2026-11-12",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/12 spiked to 147.60 and closed 139.94 near its 137.75 low, a second straight rejection above 145; supply overhead, no long.",
+      "logged_utc": "2026-11-26T03:44:04+00:00"
+    },
+    {
+      "horizon": "2026-11-13",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:05+00:00"
+    },
+    {
+      "horizon": "2026-11-13",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: three bars closing 139-140 with lower highs 147.60 then 142.24 and lows drifting to 136.64; range chop with no edge for a long.",
+      "logged_utc": "2026-11-26T03:44:16+00:00"
+    },
+    {
+      "horizon": "2026-11-16",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:17+00:00"
+    },
+    {
+      "horizon": "2026-11-16",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: fourth lower close at 137.36 with low 135.00 approaching the 11/09 low 135.37; drifting down, no reversal bar.",
+      "logged_utc": "2026-11-26T03:44:27+00:00"
+    },
+    {
+      "horizon": "2026-11-17",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:29+00:00"
+    },
+    {
+      "horizon": "2026-11-17",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/17 bounced to 141.70 but is still inside the 135.00-147.60 chop under the 142.24 and 145.16 highs; no trend to swing with.",
+      "logged_utc": "2026-11-26T03:44:43+00:00"
+    },
+    {
+      "horizon": "2026-11-18",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:44+00:00"
+    },
+    {
+      "horizon": "2026-11-18",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/18 closed 143.50 mid-bar after stalling at 146.31 under the 147.60 high; mid-range of the 135-147.6 chop with supply just above.",
+      "logged_utc": "2026-11-26T03:44:56+00:00"
+    },
+    {
+      "horizon": "2026-11-19",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:57+00:00"
+    },
+    {
+      "horizon": "2026-11-19",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/19 reversed from 147.29 to close 138.43 near the low 135.50 on higher volume, a third failure at 147; no long.",
+      "logged_utc": "2026-11-26T03:45:05+00:00"
+    },
+    {
+      "horizon": "2026-11-20",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:05+00:00"
+    },
+    {
+      "horizon": "2026-11-20",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/20 gapped down and fell 7.7 pct to close 127.79 near the low 126.28, breaking the 135 floor; no reversal bar.",
+      "logged_utc": "2026-11-26T03:45:15+00:00"
+    },
+    {
+      "horizon": "2026-11-23",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:16+00:00"
+    },
+    {
+      "horizon": "2026-11-23",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/23 gapped up to 140.04 and sold off all day to close 133.35 on its low 133.10; the gap was faded, no long.",
+      "logged_utc": "2026-11-26T03:45:38+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:40+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/24 fell 5.7 pct to close 125.81 under the 11/20 low 126.28; downtrend, and the window ends next bar.",
+      "logged_utc": "2026-11-26T03:45:47+00:00"
+    },
+    {
+      "horizon": "2026-11-25",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:48+00:00"
     }
   ],
-  "revealed": [],
+  "revealed": [
+    {
+      "day": "2026-11-05",
+      "open": 131.33999633789062,
+      "high": 131.8699951171875,
+      "low": 120.38999938964844,
+      "close": 123.62000274658203,
+      "volume": 171356200.0
+    },
+    {
+      "day": "2026-11-06",
+      "open": 130.94000244140625,
+      "high": 135.32000732421875,
+      "low": 128.57000732421875,
+      "close": 134.27000427246094,
+      "volume": 115495000.0
+    },
+    {
+      "day": "2026-11-09",
+      "open": 136.50999450683594,
+      "high": 143.1999969482422,
+      "low": 135.3699951171875,
+      "close": 142.07000732421875,
+      "volume": 103473200.0
+    },
+    {
+      "day": "2026-11-10",
+      "open": 139.16000366210938,
+      "high": 144.88999938964844,
+      "low": 137.64999389648438,
+      "close": 143.08999633789062,
+      "volume": 82134500.0
+    },
+    {
+      "day": "2026-11-11",
+      "open": 143.3800048828125,
+      "high": 145.16000366210938,
+      "low": 138.6199951171875,
+      "close": 139.75,
+      "volume": 114209100.0
+    },
+    {
+      "day": "2026-11-12",
+      "open": 137.85000610351562,
+      "high": 147.60000610351562,
+      "low": 137.75,
+      "close": 139.94000244140625,
+      "volume": 95961800.0
+    },
+    {
+      "day": "2026-11-13",
+      "open": 140.1699981689453,
+      "high": 142.24000549316406,
+      "low": 136.63999938964844,
+      "close": 139.11000061035156,
+      "volume": 78515500.0
+    },
+    {
+      "day": "2026-11-16",
+      "open": 138.5,
+      "high": 139.97999572753906,
+      "low": 135.0,
+      "close": 137.36000061035156,
+      "volume": 101662100.0
+    },
+    {
+      "day": "2026-11-17",
+      "open": 138.5500030517578,
+      "high": 142.11000061035156,
+      "low": 137.38999938964844,
+      "close": 141.6999969482422,
+      "volume": 89272700.0
+    },
+    {
+      "day": "2026-11-18",
+      "open": 143.24000549316406,
+      "high": 146.30999755859375,
+      "low": 141.22000122070312,
+      "close": 143.5,
+      "volume": 86453900.0
+    },
+    {
+      "day": "2026-11-19",
+      "open": 144.91000366210938,
+      "high": 147.2899932861328,
+      "low": 135.5,
+      "close": 138.42999267578125,
+      "volume": 119613400.0
+    },
+    {
+      "day": "2026-11-20",
+      "open": 131.92999267578125,
+      "high": 133.83999633789062,
+      "low": 126.27999877929688,
+      "close": 127.79000091552734,
+      "volume": 124602700.0
+    },
+    {
+      "day": "2026-11-23",
+      "open": 140.0399932861328,
+      "high": 141.8699951171875,
+      "low": 133.10000610351562,
+      "close": 133.35000610351562,
+      "volume": 96162800.0
+    },
+    {
+      "day": "2026-11-24",
+      "open": 131.89999389648438,
+      "high": 132.5,
+      "low": 123.5199966430664,
+      "close": 125.80999755859375,
+      "volume": 104030800.0
+    },
+    {
+      "day": "2026-11-25",
+      "open": 118.47000122070312,
+      "high": 128.4499969482422,
+      "low": 112.93000030517578,
+      "close": 127.44000244140625,
+      "volume": 147273500.0
+    }
+  ],
   "version": "1.3",
   "account": {
     "version": "1.3",

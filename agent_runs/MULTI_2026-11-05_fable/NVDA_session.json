@@ -1,7 +1,7 @@
 {
   "ticker": "NVDA",
   "start": "2026-11-05",
-  "horizon": "2026-11-04",
+  "horizon": "2026-11-25",
   "csv": null,
   "pending": null,
   "stop": null,
@@ -14,20 +14,377 @@
       "detail": "cash $10,000.00, first tradable day >= 2026-11-05",
       "why": "",
       "logged_utc": "2026-11-26T03:41:55+00:00"
+    },
+    {
+      "horizon": "2026-11-04",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/04 closed 200.13 at the day low and a new closing low under 10/30 and 11/02; downtrend intact, no reversal bar.",
+      "logged_utc": "2026-11-26T03:42:11+00:00"
+    },
+    {
+      "horizon": "2026-11-05",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:42:12+00:00"
+    },
+    {
+      "horizon": "2026-11-05",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/05 fell 9.3 pct and closed 181.60 at the low 181.46 on 306M volume; closing on the low is not a reversal, wait.",
+      "logged_utc": "2026-11-26T03:42:23+00:00"
+    },
+    {
+      "horizon": "2026-11-06",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:42:24+00:00"
+    },
+    {
+      "horizon": "2026-11-06",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/06 bounce faded from 194.90 to close 186.64 near the low 185.22, sellers still in control after the 11/05 break.",
+      "logged_utc": "2026-11-26T03:42:45+00:00"
+    },
+    {
+      "horizon": "2026-11-09",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:42:48+00:00"
+    },
+    {
+      "horizon": "2026-11-09",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 177.0, \"stop\": 169.9, \"max_hold\": 2}",
+      "why": "11/09 gapped to 173.07, held 170.24 and closed 178.67 near the 179.92 high on record 462M volume, a washout reversal; limit 177 after the large move, stop under the 170.24 low.",
+      "logged_utc": "2026-11-26T03:43:02+00:00"
+    },
+    {
+      "horizon": "2026-11-10",
+      "event": "fill",
+      "detail": "BUY 24.0559 @ 174.0570 (open 173.97, limit 177.00)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:05+00:00"
+    },
+    {
+      "horizon": "2026-11-10",
+      "event": "fill",
+      "detail": "SELL 24.0559 @ 169.8151 (STOP 169.90 hit) P&L $-102.04 (-2.44%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:05+00:00"
+    },
+    {
+      "horizon": "2026-11-10",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/10 failed the 11/09 reversal, broke 170.24 and closed 168.89 on 429M volume; my stop-out confirms the downtrend, no new entry.",
+      "logged_utc": "2026-11-26T03:43:22+00:00"
+    },
+    {
+      "horizon": "2026-11-11",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:24+00:00"
+    },
+    {
+      "horizon": "2026-11-11",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/11 bounce stalled at 177.54 under the 179.92 high of 11/09 and closed mid-bar at 173.73; still lower highs.",
+      "logged_utc": "2026-11-26T03:43:42+00:00"
+    },
+    {
+      "horizon": "2026-11-12",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:43:44+00:00"
+    },
+    {
+      "horizon": "2026-11-12",
+      "event": "decide:buy",
+      "detail": "{\"dollars\": 2500.0, \"risk_pct\": 1.0, \"limit\": 162.0, \"stop\": 148.5, \"max_hold\": 2}",
+      "why": "11/12 gapped to 151.01, held 148.80 and rallied to close 166.19 near the high on record 747M volume; limit 162 buys a partial retrace after the huge bar, stop under the 148.80 low.",
+      "logged_utc": "2026-11-26T03:44:05+00:00"
+    },
+    {
+      "horizon": "2026-11-13",
+      "event": "fill",
+      "detail": "BUY 7.28809 @ 162.0810 (limit 162.00 reached intraday)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:07+00:00"
+    },
+    {
+      "horizon": "2026-11-13",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Long from 162.08, bar 1 held 158.39 well above the 148.80 washout low and closed 162.85; keep stop 148.50, max-hold exits after the second bar.",
+      "logged_utc": "2026-11-26T03:44:17+00:00"
+    },
+    {
+      "horizon": "2026-11-16",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:21+00:00"
+    },
+    {
+      "horizon": "2026-11-16",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Bar 2 closed 156.14 near the low 155.01, no follow through from the 11/12 reversal; let max-hold sell at the next open, stop 148.50 unchanged.",
+      "logged_utc": "2026-11-26T03:44:28+00:00"
+    },
+    {
+      "horizon": "2026-11-17",
+      "event": "fill",
+      "detail": "SELL 7.28809 @ 156.8215 (max-hold 2 reached, open 156.90) P&L $-38.33 (-3.24%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:30+00:00"
+    },
+    {
+      "horizon": "2026-11-17",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat after exit at 156.82: 11/17 held 150.33 above the 148.80 low but closed 155.46 under the prior close; two failed reversal trades already, wait for a higher close.",
+      "logged_utc": "2026-11-26T03:44:44+00:00"
+    },
+    {
+      "horizon": "2026-11-18",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:45+00:00"
+    },
+    {
+      "horizon": "2026-11-18",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/18 faded from 159.70 to close 150.96 on its low 150.40, pressing the 148.80-150.33 lows; likely to break, no long.",
+      "logged_utc": "2026-11-26T03:44:56+00:00"
+    },
+    {
+      "horizon": "2026-11-19",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:44:58+00:00"
+    },
+    {
+      "horizon": "2026-11-19",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/19 broke the 148.80 washout low and closed 145.98 on its low 145.71; downtrend resumed.",
+      "logged_utc": "2026-11-26T03:45:05+00:00"
+    },
+    {
+      "horizon": "2026-11-20",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:08+00:00"
+    },
+    {
+      "horizon": "2026-11-20",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/20 fell 14 pct and closed 125.53 near the low 124.50 on 633M volume; closing on the low again, not a reversal.",
+      "logged_utc": "2026-11-26T03:45:15+00:00"
+    },
+    {
+      "horizon": "2026-11-23",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:19+00:00"
+    },
+    {
+      "horizon": "2026-11-23",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/23 gapped up 31 pct with a 156.93-171.50 range on 783M volume; any stop under that bar is far too wide for a 1 pct risk trade worth taking.",
+      "logged_utc": "2026-11-26T03:45:39+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:41+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat: 11/24 gave back 6 pct to close 155.38 after the 11/23 gap; ranges are too wide for a defined 1 pct risk entry on the final bar.",
+      "logged_utc": "2026-11-26T03:45:47+00:00"
+    },
+    {
+      "horizon": "2026-11-25",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:45:49+00:00"
     }
   ],
-  "revealed": [],
+  "revealed": [
+    {
+      "day": "2026-11-05",
+      "open": 196.07000732421875,
+      "high": 196.25,
+      "low": 181.4600067138672,
+      "close": 181.60000610351562,
+      "volume": 306127800.0
+    },
+    {
+      "day": "2026-11-06",
+      "open": 191.10000610351562,
+      "high": 194.89999389648438,
+      "low": 185.22000122070312,
+      "close": 186.63999938964844,
+      "volume": 180212300.0
+    },
+    {
+      "day": "2026-11-09",
+      "open": 173.07000732421875,
+      "high": 179.9199981689453,
+      "low": 170.24000549316406,
+      "close": 178.6699981689453,
+      "volume": 462719300.0
+    },
+    {
+      "day": "2026-11-10",
+      "open": 173.97000122070312,
+      "high": 174.69000244140625,
+      "low": 165.88999938964844,
+      "close": 168.88999938964844,
+      "volume": 429273200.0
+    },
+    {
+      "day": "2026-11-11",
+      "open": 172.8000030517578,
+      "high": 177.5399932861328,
+      "low": 170.77000427246094,
+      "close": 173.72999572753906,
+      "volume": 339214800.0
+    },
+    {
+      "day": "2026-11-12",
+      "open": 151.00999450683594,
+      "high": 167.13999938964844,
+      "low": 148.8000030517578,
+      "close": 166.19000244140625,
+      "volume": 747707600.0
+    },
+    {
+      "day": "2026-11-13",
+      "open": 169.91000366210938,
+      "high": 170.0,
+      "low": 158.38999938964844,
+      "close": 162.85000610351562,
+      "volume": 365796600.0
+    },
+    {
+      "day": "2026-11-16",
+      "open": 159.02000427246094,
+      "high": 163.1999969482422,
+      "low": 155.00999450683594,
+      "close": 156.13999938964844,
+      "volume": 333822100.0
+    },
+    {
+      "day": "2026-11-17",
+      "open": 156.89999389648438,
+      "high": 158.19000244140625,
+      "low": 150.3300018310547,
+      "close": 155.4600067138672,
+      "volume": 406985100.0
+    },
+    {
+      "day": "2026-11-18",
+      "open": 159.19000244140625,
+      "high": 159.6999969482422,
+      "low": 150.39999389648438,
+      "close": 150.9600067138672,
+      "volume": 349791400.0
+    },
+    {
+      "day": "2026-11-19",
+      "open": 152.9199981689453,
+      "high": 158.1300048828125,
+      "low": 145.7100067138672,
+      "close": 145.97999572753906,
+      "volume": 322940100.0
+    },
+    {
+      "day": "2026-11-20",
+      "open": 143.52000427246094,
+      "high": 143.72999572753906,
+      "low": 124.5,
+      "close": 125.52999877929688,
+      "volume": 633418400.0
+    },
+    {
+      "day": "2026-11-23",
+      "open": 167.0399932861328,
+      "high": 171.5,
+      "low": 156.92999267578125,
+      "close": 165.0500030517578,
+      "volume": 782593300.0
+    },
+    {
+      "day": "2026-11-24",
+      "open": 159.10000610351562,
+      "high": 159.9199981689453,
+      "low": 150.5,
+      "close": 155.3800048828125,
+      "volume": 386223600.0
+    },
+    {
+      "day": "2026-11-25",
+      "open": 144.05999755859375,
+      "high": 150.3699951171875,
+      "low": 141.1699981689453,
+      "close": 149.3000030517578,
+      "volume": 363377300.0
+    }
+  ],
   "version": "1.3",
   "account": {
     "version": "1.3",
     "created": "2026-11-26T03:41:55+00:00",
     "starting_cash": 10000.0,
-    "cash": 10000.0,
+    "cash": 9859.625057288515,
     "costs": {
       "commission": 0.0,
       "slippage_bps": 5.0
     },
     "positions": {},
-    "closed": []
+    "closed": [
+      {
+        "ticker": "NVDA",
+        "shares": 24.0558892130278,
+        "entry_price": 174.05698622131348,
+        "entry_time": "2026-11-10T14:30:00+00:00",
+        "exit_price": 169.81505,
+        "exit_time": "2026-11-10T17:45:00+00:00",
+        "fees": 0.0
+      },
+      {
+        "ticker": "NVDA",
+        "shares": 7.288091047942982,
+        "entry_price": 162.081,
+        "entry_time": "2026-11-13T17:45:00+00:00",
+        "exit_price": 156.82154389953615,
+        "exit_time": "2026-11-17T14:30:00+00:00",
+        "fees": 0.0
+      }
+    ]
   }
 }
