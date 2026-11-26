@@ -1,0 +1,219 @@
+{
+  "ticker": "SPCX",
+  "start": "2026-11-16",
+  "horizon": "2026-11-24",
+  "csv": null,
+  "pending": null,
+  "stop": null,
+  "journal": [
+    {
+      "horizon": "2026-11-15",
+      "event": "start",
+      "detail": "cash $10,000.00, first tradable day >= 2026-11-16",
+      "why": "",
+      "logged_utc": "2026-11-26T03:05:22+00:00"
+    },
+    {
+      "horizon": "2026-11-15",
+      "event": "decide:buy",
+      "detail": "{\"dollars\": 5000.0, \"stop\": 134.0}",
+      "why": "Nov 5 flush to 120 reversed (+8.6%, +5.8%); 3 days holding 136.6-147.6 after rebound = higher-low consolidation. Swing long 1-2 days, stop below Nov13 low/Oct30 low",
+      "logged_utc": "2026-11-26T03:05:31+00:00"
+    },
+    {
+      "horizon": "2026-11-16",
+      "event": "fill",
+      "detail": "BUY 36.083 @ 138.5692 (open 138.50)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:05:32+00:00"
+    },
+    {
+      "horizon": "2026-11-16",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Day 1 of max 2. Low 135.00 held above 134 stop; close 137.36 still inside the 136.6-147.6 range. Give it the second day",
+      "logged_utc": "2026-11-26T03:05:38+00:00"
+    },
+    {
+      "horizon": "2026-11-17",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:05:38+00:00"
+    },
+    {
+      "horizon": "2026-11-17",
+      "event": "decide:sell",
+      "detail": "{}",
+      "why": "2-day max hold reached per pre-committed rule; up ~2.3% at close, take it",
+      "logged_utc": "2026-11-26T03:05:44+00:00"
+    },
+    {
+      "horizon": "2026-11-18",
+      "event": "fill",
+      "detail": "SELL 36.083 @ 143.1684 (open 143.24) P&L $+165.95 (+3.32%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:05:44+00:00"
+    },
+    {
+      "horizon": "2026-11-18",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat. 143.50 is under range top 146.3-147.6 after 2 up days; poor risk/reward to enter. Wait for pullback toward 137-140",
+      "logged_utc": "2026-11-26T03:05:53+00:00"
+    },
+    {
+      "horizon": "2026-11-19",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:05:54+00:00"
+    },
+    {
+      "horizon": "2026-11-19",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Price reached 137-140 zone, but via high-volume rejection at 147 range top (O144.9 H147.3 L135.5 C138.4, vol 119.6M). Similar Oct21->22 pattern continued down. Wait a day rather than buy into it",
+      "logged_utc": "2026-11-26T03:06:02+00:00"
+    },
+    {
+      "horizon": "2026-11-20",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:06:02+00:00"
+    },
+    {
+      "horizon": "2026-11-20",
+      "event": "decide:buy",
+      "detail": "{\"dollars\": 3000.0, \"stop\": 122.0}",
+      "why": "Range support broke (C127.79, -7.7%). Mean-reversion bounce attempt near Nov5 low 120.4: prior -6..-9% days (Oct22, Oct30, Nov5) were each followed by an up day - only 3 samples, so reduced size k. Stop 122 above Nov5 low",
+      "logged_utc": "2026-11-26T03:06:14+00:00"
+    },
+    {
+      "horizon": "2026-11-23",
+      "event": "fill",
+      "detail": "BUY 21.4117 @ 140.1100 (open 140.04)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:06:15+00:00"
+    },
+    {
+      "horizon": "2026-11-23",
+      "event": "decide:sell",
+      "detail": "{}",
+      "why": "Thesis (bounce) played out in the overnight gap to 140.04, which I bought, then failed intraday (C133.35). Thesis invalid -> exit. CORRECTION to prior entry: \"reduced size k\" should read \"reduced size $3k\" (shell expanded $3).",
+      "logged_utc": "2026-11-26T03:06:27+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "fill",
+      "detail": "SELL 21.4117 @ 131.8340 (open 131.90) P&L $-177.20 (-5.91%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:06:28+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Downtrend making lower lows (C125.81, L123.52); bounce attempt failed. No edge - stay flat.",
+      "logged_utc": "2026-11-26T03:06:36+00:00"
+    },
+    {
+      "horizon": "2026-11-24",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat; checking present boundary.",
+      "logged_utc": "2026-11-26T03:06:36+00:00"
+    }
+  ],
+  "revealed": [
+    {
+      "day": "2026-11-16",
+      "open": 138.5,
+      "high": 139.97999572753906,
+      "low": 135.0,
+      "close": 137.36000061035156,
+      "volume": 101662100.0
+    },
+    {
+      "day": "2026-11-17",
+      "open": 138.5500030517578,
+      "high": 142.11000061035156,
+      "low": 137.38999938964844,
+      "close": 141.6999969482422,
+      "volume": 89272700.0
+    },
+    {
+      "day": "2026-11-18",
+      "open": 143.24000549316406,
+      "high": 146.30999755859375,
+      "low": 141.22000122070312,
+      "close": 143.5,
+      "volume": 86453900.0
+    },
+    {
+      "day": "2026-11-19",
+      "open": 144.91000366210938,
+      "high": 147.2899932861328,
+      "low": 135.5,
+      "close": 138.42999267578125,
+      "volume": 119613400.0
+    },
+    {
+      "day": "2026-11-20",
+      "open": 131.92999267578125,
+      "high": 133.83999633789062,
+      "low": 126.27999877929688,
+      "close": 127.79000091552734,
+      "volume": 124602700.0
+    },
+    {
+      "day": "2026-11-23",
+      "open": 140.0399932861328,
+      "high": 141.8699951171875,
+      "low": 133.10000610351562,
+      "close": 133.35000610351562,
+      "volume": 96162800.0
+    },
+    {
+      "day": "2026-11-24",
+      "open": 131.89999389648438,
+      "high": 132.5,
+      "low": 123.5199966430664,
+      "close": 125.80999755859375,
+      "volume": 104030800.0
+    }
+  ],
+  "version": "1.1",
+  "account": {
+    "version": "1.1",
+    "created": "2026-11-26T03:05:22+00:00",
+    "starting_cash": 10000.0,
+    "cash": 9988.747843453815,
+    "costs": {
+      "commission": 0.0,
+      "slippage_bps": 5.0
+    },
+    "positions": {},
+    "closed": [
+      {
+        "ticker": "SPCX",
+        "shares": 36.08304151173511,
+        "entry_price": 138.56924999999998,
+        "entry_time": "2026-11-16T14:30:00+00:00",
+        "exit_price": 143.16838549041748,
+        "exit_time": "2026-11-18T14:30:00+00:00",
+        "fees": 0.0
+      },
+      {
+        "ticker": "SPCX",
+        "shares": 21.41174588246791,
+        "entry_price": 140.11001328277587,
+        "entry_time": "2026-11-23T14:30:00+00:00",
+        "exit_price": 131.83404389953614,
+        "exit_time": "2026-11-24T14:30:00+00:00",
+        "fees": 0.0
+      }
+    ]
+  }
+}
