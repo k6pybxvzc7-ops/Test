@@ -1,0 +1,393 @@
+{
+  "ticker": "SPCX",
+  "start": "2026-09-08",
+  "horizon": "2026-09-25",
+  "csv": null,
+  "pending": null,
+  "stop": null,
+  "max_hold": null,
+  "bars_held": 0,
+  "journal": [
+    {
+      "horizon": "2026-09-07",
+      "event": "start",
+      "detail": "cash $10,000.00, first tradable day >= 2026-09-08",
+      "why": "",
+      "logged_utc": "2026-11-26T03:23:27+00:00"
+    },
+    {
+      "horizon": "2026-09-07",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 147.0, \"stop\": 140.9, \"max_hold\": 2}",
+      "why": "Breakout bar 09-03 (+6.4 pct, vol 121M, high 152.30) cleared the 143-145 ceiling of late Aug; 09-04 was a quiet low-volume pullback holding 147.32. Bid a small dip at 147.00 inside the 09-04 range rather than chase the open; stop 140.90 just under the 09-03 breakout bar low 141.05, about 1 ATR (5.93) away.",
+      "logged_utc": "2026-11-26T03:23:37+00:00"
+    },
+    {
+      "horizon": "2026-09-08",
+      "event": "fill",
+      "detail": "BUY 16.1983 @ 147.0735 (limit 147.00 reached intraday)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:23:38+00:00"
+    },
+    {
+      "horizon": "2026-09-08",
+      "event": "decide:sell",
+      "detail": "{\"limit\": 158.0}",
+      "why": "Long 16.2 sh from 147.07; 09-08 closed 153.47 near the 155.00 high at a new high on 86M volume. Offer the position at 158.00, about 0.75 ATR above the close and 3.00 above the 09-08 high, to take profit into follow-through strength on bar 2; stop stays at 140.90 unchanged and max-hold exits it anyway if the limit is not reached.",
+      "logged_utc": "2026-11-26T03:23:47+00:00"
+    },
+    {
+      "horizon": "2026-09-09",
+      "event": "fill",
+      "detail": "sell limit 158.00 not reached (high 153.00): expired",
+      "why": "",
+      "logged_utc": "2026-11-26T03:23:47+00:00"
+    },
+    {
+      "horizon": "2026-09-09",
+      "event": "decide:sell",
+      "detail": "{}",
+      "why": "Bar 2 of the hold is done and 09-09 was a bearish outside-style reversal: open 152.04, low 145.55, close 147.55 on 120M volume, heavier than the 09-08 up day. Momentum from the 09-03 breakout has stalled, so exit the whole position at the next open as the 2-bar plan requires rather than hope for a rebound.",
+      "logged_utc": "2026-11-26T03:23:51+00:00"
+    },
+    {
+      "horizon": "2026-09-10",
+      "event": "fill",
+      "detail": "SELL 16.1983 @ 144.9275 (open 145.00) P&L $-34.76 (-1.46%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:23:52+00:00"
+    },
+    {
+      "horizon": "2026-09-10",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 145.6, \"stop\": 140.9, \"max_hold\": 2}",
+      "why": "Three straight sessions found buyers at the same shelf: lows 145.14 (09-08), 145.55 (09-09), 144.89 (09-10), each followed by a bounce, while 154.70-155.00 capped the highs. Range trade: bid 145.60 at the shelf only, no chase at the 148.18 close; stop 140.90 under the 09-03 breakout low 141.05. If price does not dip there the order simply expires.",
+      "logged_utc": "2026-11-26T03:23:59+00:00"
+    },
+    {
+      "horizon": "2026-09-11",
+      "event": "fill",
+      "detail": "buy limit 145.60 not reached (low 145.92): expired",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:00+00:00"
+    },
+    {
+      "horizon": "2026-09-11",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 147.5, \"stop\": 143.9, \"max_hold\": 2}",
+      "why": "Fourth straight day the 145-146 shelf held (lows 145.14, 145.55, 144.89, 145.92) and 09-11 closed 151.21 near its 151.85 high. The close is mid-to-upper range under 154.70-155.00 supply, so no market buy; bid 147.50 in the lower third of the 4-day range. Stop 143.90 is 1.00 below the lowest shelf print 144.89, since a break of that shelf invalidates the range idea.",
+      "logged_utc": "2026-11-26T03:24:07+00:00"
+    },
+    {
+      "horizon": "2026-09-14",
+      "event": "fill",
+      "detail": "BUY 28.4423 @ 147.4037 (open 147.33, limit 147.50)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:08+00:00"
+    },
+    {
+      "horizon": "2026-09-14",
+      "event": "decide:sell",
+      "detail": "{\"limit\": 151.7}",
+      "why": "Long 28.4 sh from 147.40 as a range trade. Each of the last five sessions traded up to at least 151.85 (highs 155.00, 153.00, 154.70, 151.85, 152.56) but none closed above 153.47, so offer the whole position at 151.70, just under the lowest of those highs, for about 4.30 per share vs 3.50 risk. Stop unchanged at 143.90; max-hold exits at the following open if unfilled.",
+      "logged_utc": "2026-11-26T03:24:13+00:00"
+    },
+    {
+      "horizon": "2026-09-15",
+      "event": "fill",
+      "detail": "SELL 28.4423 @ 143.8281 (STOP 143.90 hit) P&L $-101.70 (-2.43%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:13+00:00"
+    },
+    {
+      "horizon": "2026-09-15",
+      "event": "fill",
+      "detail": "sell limit 151.70 void: position already closed",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:13+00:00"
+    },
+    {
+      "horizon": "2026-09-15",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat and staying flat. 09-15 broke the 145-146 shelf that held five sessions, opened at its high 148.45 and closed 143.49 near the 142.87 low, so the range idea is invalidated and there is no long setup. Want to see whether 141.05 (09-03 breakout low) and the 138-140 late-Aug base hold before bidding again.",
+      "logged_utc": "2026-11-26T03:24:18+00:00"
+    },
+    {
+      "horizon": "2026-09-16",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:19+00:00"
+    },
+    {
+      "horizon": "2026-09-16",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 148.5, \"stop\": 142.7, \"max_hold\": 2}",
+      "why": "The 09-15 breakdown (close 143.49, low 142.87) failed at once: 09-16 ran 144.36 to 153.01 and closed 150.88 (+5.2 pct) on 109M volume, reclaiming the 145-146 shelf. After that large one-day move use a limit only: bid 148.50, roughly the midpoint of the 09-16 bar (148.7), not the open. Stop 142.70 sits under the 09-15 failed-breakdown low 142.87, about 0.95 ATR below the limit.",
+      "logged_utc": "2026-11-26T03:24:25+00:00"
+    },
+    {
+      "horizon": "2026-09-17",
+      "event": "fill",
+      "detail": "buy limit 148.50 not reached (low 152.63): expired",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:25+00:00"
+    },
+    {
+      "horizon": "2026-09-17",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 153.0, \"stop\": 147.8, \"max_hold\": 2}",
+      "why": "Follow-through after the failed breakdown: 09-17 gapped to 153.80, made a new high 156.87 and closed 154.81, with its low 152.63 holding above the 09-16 high 153.01. Two strong days in a row, so limit only: bid 153.00 at that gap or old-high retest, not the open. Stop 147.80 is below the midpoint of the 09-16 thrust bar (148.7), about 0.8 ATR; a fall that deep means the breakout failed.",
+      "logged_utc": "2026-11-26T03:24:31+00:00"
+    },
+    {
+      "horizon": "2026-09-18",
+      "event": "fill",
+      "detail": "BUY 18.6933 @ 153.0765 (limit 153.00 reached intraday)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:32+00:00"
+    },
+    {
+      "horizon": "2026-09-18",
+      "event": "decide:sell",
+      "detail": "{\"limit\": 156.4}",
+      "why": "Long 18.7 sh from 153.08. 09-18 was a wide two-sided bar (156.60 high, 149.93 low, close 152.71) on 336M volume, about 4x normal, and it stalled at the same 156.60-156.87 area as 09-17. Offer the position at 156.40, just under those two highs, to exit into a retest instead of betting on a clean breakout; stop stays 147.80 and max-hold takes it off at the next open otherwise.",
+      "logged_utc": "2026-11-26T03:24:37+00:00"
+    },
+    {
+      "horizon": "2026-09-21",
+      "event": "fill",
+      "detail": "SELL 18.6933 @ 156.3218 (limit 156.40 reached intraday) P&L $+60.67 (+2.12%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:38+00:00"
+    },
+    {
+      "horizon": "2026-09-21",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat, no order. 09-21 poked to a new high 158.13 then closed 151.85, 0.25 off its 151.60 low: third straight bar with a long upper wick in the 156.60-158.13 zone, and a close below the 09-18 close 152.71. That is a rejection, not a dip-buy signal; the close sits mid-range between 149.93 (09-18 low) and the highs with no edge. Wait for a test of 149.93 or the 148.7 area and see how it closes.",
+      "logged_utc": "2026-11-26T03:24:48+00:00"
+    },
+    {
+      "horizon": "2026-09-22",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:49+00:00"
+    },
+    {
+      "horizon": "2026-09-22",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 152.8, \"stop\": 149.4, \"max_hold\": 2}",
+      "why": "The 09-21 rejection did not follow through: 09-22 held 150.55, a higher low over 149.93 (09-18), and closed 154.72 next to its 154.94 high, though on light 59M volume. Higher lows 142.87, 144.36, 149.93, 150.55 press against 156.60-158.13 supply. Bid 152.80, the midpoint of the 09-22 bar, not the close; stop 149.40 under both the 09-22 and 09-18 lows, where the higher-low structure would be broken.",
+      "logged_utc": "2026-11-26T03:24:56+00:00"
+    },
+    {
+      "horizon": "2026-09-23",
+      "event": "fill",
+      "detail": "BUY 28.5474 @ 152.8764 (limit 152.80 reached intraday)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:56+00:00"
+    },
+    {
+      "horizon": "2026-09-23",
+      "event": "fill",
+      "detail": "SELL 28.5474 @ 149.3253 (STOP 149.40 hit) P&L $-101.37 (-2.32%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:24:56+00:00"
+    },
+    {
+      "horizon": "2026-09-23",
+      "event": "decide:buy",
+      "detail": "{\"risk_pct\": 1.0, \"limit\": 145.2, \"stop\": 141.9, \"max_hold\": 2}",
+      "why": "Stopped out today; 09-23 fell from 154.26 to close 148.36 near its 147.89 low, breaking the 149.93 and 150.55 higher lows, so no buy near the close. Since 09-08 the stock has ranged 142.87 to 158.13 and every visit to 144.36-146.00 was bought (09-08, 09-09, 09-10, 09-11, 09-14, 09-16). Bid only down there at 145.20; stop 141.90 is about 1.00 under the 09-15 range low 142.87. Expires if not reached.",
+      "logged_utc": "2026-11-26T03:25:06+00:00"
+    },
+    {
+      "horizon": "2026-09-24",
+      "event": "fill",
+      "detail": "buy limit 145.20 not reached (low 145.88): expired",
+      "why": "",
+      "logged_utc": "2026-11-26T03:25:07+00:00"
+    },
+    {
+      "horizon": "2026-09-24",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Flat into the final session. 09-24 was an inside-range day (149.00 high, 145.88 low, close 148.03) that held above the 144.36-146.00 demand zone but did not reclaim the broken 149.93 level, so there is no fresh signal. Any fill on 09-25 could not be exited or managed inside the test window, so no new entry.",
+      "logged_utc": "2026-11-26T03:25:11+00:00"
+    },
+    {
+      "horizon": "2026-09-25",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:25:12+00:00"
+    }
+  ],
+  "revealed": [
+    {
+      "day": "2026-09-08",
+      "open": 149.0500030517578,
+      "high": 155.0,
+      "low": 145.13999938964844,
+      "close": 153.47000122070312,
+      "volume": 85840700.0
+    },
+    {
+      "day": "2026-09-09",
+      "open": 152.0399932861328,
+      "high": 153.0,
+      "low": 145.5500030517578,
+      "close": 147.5500030517578,
+      "volume": 120593500.0
+    },
+    {
+      "day": "2026-09-10",
+      "open": 145.0,
+      "high": 154.6999969482422,
+      "low": 144.88999938964844,
+      "close": 148.17999267578125,
+      "volume": 118598900.0
+    },
+    {
+      "day": "2026-09-11",
+      "open": 150.00999450683594,
+      "high": 151.85000610351562,
+      "low": 145.9199981689453,
+      "close": 151.2100067138672,
+      "volume": 79273400.0
+    },
+    {
+      "day": "2026-09-14",
+      "open": 147.3300018310547,
+      "high": 152.55999755859375,
+      "low": 146.0,
+      "close": 148.14999389648438,
+      "volume": 67861000.0
+    },
+    {
+      "day": "2026-09-15",
+      "open": 148.4499969482422,
+      "high": 148.5500030517578,
+      "low": 142.8699951171875,
+      "close": 143.49000549316406,
+      "volume": 72746800.0
+    },
+    {
+      "day": "2026-09-16",
+      "open": 144.8800048828125,
+      "high": 153.00999450683594,
+      "low": 144.36000061035156,
+      "close": 150.8800048828125,
+      "volume": 108770000.0
+    },
+    {
+      "day": "2026-09-17",
+      "open": 153.8000030517578,
+      "high": 156.8699951171875,
+      "low": 152.6300048828125,
+      "close": 154.80999755859375,
+      "volume": 83986400.0
+    },
+    {
+      "day": "2026-09-18",
+      "open": 154.60000610351562,
+      "high": 156.60000610351562,
+      "low": 149.92999267578125,
+      "close": 152.7100067138672,
+      "volume": 335670500.0
+    },
+    {
+      "day": "2026-09-21",
+      "open": 154.77000427246094,
+      "high": 158.1300048828125,
+      "low": 151.60000610351562,
+      "close": 151.85000610351562,
+      "volume": 82283700.0
+    },
+    {
+      "day": "2026-09-22",
+      "open": 151.6999969482422,
+      "high": 154.94000244140625,
+      "low": 150.5500030517578,
+      "close": 154.72000122070312,
+      "volume": 59197600.0
+    },
+    {
+      "day": "2026-09-23",
+      "open": 153.27999877929688,
+      "high": 154.25999450683594,
+      "low": 147.88999938964844,
+      "close": 148.36000061035156,
+      "volume": 60641600.0
+    },
+    {
+      "day": "2026-09-24",
+      "open": 148.1999969482422,
+      "high": 149.0,
+      "low": 145.8800048828125,
+      "close": 148.02999877929688,
+      "volume": 72721400.0
+    },
+    {
+      "day": "2026-09-25",
+      "open": 148.3800048828125,
+      "high": 149.6699981689453,
+      "low": 146.0,
+      "close": 148.67999267578125,
+      "volume": 54595200.0
+    }
+  ],
+  "version": "1.3",
+  "account": {
+    "version": "1.3",
+    "created": "2026-11-26T03:23:27+00:00",
+    "starting_cash": 10000.0,
+    "cash": 9822.830659226449,
+    "costs": {
+      "commission": 0.0,
+      "slippage_bps": 5.0
+    },
+    "positions": {},
+    "closed": [
+      {
+        "ticker": "SPCX",
+        "shares": 16.19826678545398,
+        "entry_price": 147.0735,
+        "entry_time": "2026-09-08T17:45:00+00:00",
+        "exit_price": 144.9275,
+        "exit_time": "2026-09-10T14:30:00+00:00",
+        "fees": 0.0
+      },
+      {
+        "ticker": "SPCX",
+        "shares": 28.44231200451982,
+        "entry_price": 147.4036668319702,
+        "entry_time": "2026-09-14T14:30:00+00:00",
+        "exit_price": 143.82805000000002,
+        "exit_time": "2026-09-15T17:45:00+00:00",
+        "fees": 0.0
+      },
+      {
+        "ticker": "SPCX",
+        "shares": 18.693337837458472,
+        "entry_price": 153.07649999999998,
+        "entry_time": "2026-09-18T17:45:00+00:00",
+        "exit_price": 156.32180000000002,
+        "exit_time": "2026-09-21T17:45:00+00:00",
+        "fees": 0.0
+      },
+      {
+        "ticker": "SPCX",
+        "shares": 28.547362786845184,
+        "entry_price": 152.8764,
+        "entry_time": "2026-09-23T17:45:00+00:00",
+        "exit_price": 149.32530000000003,
+        "exit_time": "2026-09-23T17:45:00+00:00",
+        "fees": 0.0
+      }
+    ]
+  }
+}
