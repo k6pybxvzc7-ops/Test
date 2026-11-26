@@ -1,0 +1,367 @@
+{
+  "ticker": "SPCX",
+  "start": "2026-09-08",
+  "horizon": "2026-09-25",
+  "csv": null,
+  "pending": null,
+  "stop": 142.5,
+  "journal": [
+    {
+      "horizon": "2026-09-07",
+      "event": "start",
+      "detail": "cash $10,000.00, first tradable day >= 2026-09-08",
+      "why": "",
+      "logged_utc": "2026-11-26T03:11:24+00:00"
+    },
+    {
+      "horizon": "2026-09-07",
+      "event": "decide:buy",
+      "detail": "{\"dollars\": 5000.0, \"stop\": 142.0}",
+      "why": "Breakout: Sep 3 +6.4% on 121M vol cleared the 3-week 130-150 range (H152.30); Sep 4 quiet inside day held it. Stop 142 inside breakout bar. BIAS DISCLOSED: I know Oct 2 close ~158.96 (derived from Oct 5 +7.63%), which favors longs.",
+      "logged_utc": "2026-11-26T03:11:35+00:00"
+    },
+    {
+      "horizon": "2026-09-08",
+      "event": "fill",
+      "detail": "BUY 33.529 @ 149.1245 (open 149.05)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:11:36+00:00"
+    },
+    {
+      "horizon": "2026-09-08",
+      "event": "decide:hold",
+      "detail": "{\"stop\": 146.0}",
+      "why": "Day 1 of max 2; breakout following through (H155, C153.47). Tighten stop 142->146 (just above todays low 145.14) to cut risk.",
+      "logged_utc": "2026-11-26T03:11:42+00:00"
+    },
+    {
+      "horizon": "2026-09-09",
+      "event": "fill",
+      "detail": "STOP hit at 146.00: SELL 33.529 @ 145.9270 P&L $-107.21 (-2.14%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:11:42+00:00"
+    },
+    {
+      "horizon": "2026-09-09",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Stopped out: my tightened 146 stop sat inside normal daily range (orig 142 would have held) - error. Now C147.55 after high-vol (120M) reversal from 155: same warning as Nov 19. Flat despite knowing Oct 2 ~159.",
+      "logged_utc": "2026-11-26T03:11:50+00:00"
+    },
+    {
+      "horizon": "2026-09-10",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:11:51+00:00"
+    },
+    {
+      "horizon": "2026-09-10",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Chop 145-155 (Sep 10 H154.7 L144.9 C148.2). Entry here ~1:1 reward/risk with stop <141. Wait for close >155 or pullback ~142.",
+      "logged_utc": "2026-11-26T03:11:58+00:00"
+    },
+    {
+      "horizon": "2026-09-11",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:11:58+00:00"
+    },
+    {
+      "horizon": "2026-09-11",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "C151.21 still inside 145-155; neither trigger (close >155 / pullback ~142) met.",
+      "logged_utc": "2026-11-26T03:12:03+00:00"
+    },
+    {
+      "horizon": "2026-09-14",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:03+00:00"
+    },
+    {
+      "horizon": "2026-09-14",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "C148.15 inside 145-155, volume fading (67.9M). No trigger.",
+      "logged_utc": "2026-11-26T03:12:07+00:00"
+    },
+    {
+      "horizon": "2026-09-15",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:07+00:00"
+    },
+    {
+      "horizon": "2026-09-15",
+      "event": "decide:buy",
+      "detail": "{\"dollars\": 5000.0, \"stop\": 138.5}",
+      "why": "Pullback trigger met (L142.87, C143.49) into support: Sep 3 breakout low 141.05 / late-Aug highs 143-144. Stop 138.5 gives room below 141.05 (lesson from Sep 9 stop-out).",
+      "logged_utc": "2026-11-26T03:12:14+00:00"
+    },
+    {
+      "horizon": "2026-09-16",
+      "event": "fill",
+      "detail": "BUY 34.4941 @ 144.9524 (open 144.88)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:14+00:00"
+    },
+    {
+      "horizon": "2026-09-16",
+      "event": "decide:hold",
+      "detail": "{\"stop\": 141.0}",
+      "why": "Day 1 of max 2, +4.1% (C150.88). Raise stop only to 141 (below Sep 3 low 141.05), deliberately outside todays range 144.4-153.",
+      "logged_utc": "2026-11-26T03:12:19+00:00"
+    },
+    {
+      "horizon": "2026-09-17",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:19+00:00"
+    },
+    {
+      "horizon": "2026-09-17",
+      "event": "decide:sell",
+      "detail": "{}",
+      "why": "2-day max hold reached; +6.8% at close (C154.81, new high 156.87). Follow rule.",
+      "logged_utc": "2026-11-26T03:12:23+00:00"
+    },
+    {
+      "horizon": "2026-09-18",
+      "event": "fill",
+      "detail": "SELL 34.4941 @ 154.5227 (open 154.60) P&L $+330.12 (+6.60%)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:23+00:00"
+    },
+    {
+      "horizon": "2026-09-18",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Sep 18 vol 335.7M (~3-4x normal) with no price progress (C152.71, range 149.9-156.6); cause unknown from data. Ambiguous - stay flat.",
+      "logged_utc": "2026-11-26T03:12:30+00:00"
+    },
+    {
+      "horizon": "2026-09-21",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:31+00:00"
+    },
+    {
+      "horizon": "2026-09-21",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "New high 158.13 rejected, C151.85 near low. Flat; next buy trigger = pullback into 145-148 support.",
+      "logged_utc": "2026-11-26T03:12:35+00:00"
+    },
+    {
+      "horizon": "2026-09-22",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:36+00:00"
+    },
+    {
+      "horizon": "2026-09-22",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "C154.72 at highs on light vol (59M); pullback trigger 145-148 not met. Flat.",
+      "logged_utc": "2026-11-26T03:12:41+00:00"
+    },
+    {
+      "horizon": "2026-09-23",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:42+00:00"
+    },
+    {
+      "horizon": "2026-09-23",
+      "event": "decide:buy",
+      "detail": "{\"dollars\": 5000.0, \"stop\": 142.5}",
+      "why": "Pre-set pullback trigger (145-148) met: L147.89 C148.36. Stop 142.5 below Sep 15 low 142.87. Window ends Sep 25; open position will be marked at that close.",
+      "logged_utc": "2026-11-26T03:12:49+00:00"
+    },
+    {
+      "horizon": "2026-09-24",
+      "event": "fill",
+      "detail": "BUY 33.7213 @ 148.2741 (open 148.20)",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:49+00:00"
+    },
+    {
+      "horizon": "2026-09-24",
+      "event": "decide:hold",
+      "detail": "{}",
+      "why": "Day 1 of max 2, flat (C148.03, L145.88 held above 142.5 stop). Sep 25 = day 2 and window end; position marked at that close, not carried past window.",
+      "logged_utc": "2026-11-26T03:12:56+00:00"
+    },
+    {
+      "horizon": "2026-09-25",
+      "event": "no-fill",
+      "detail": "no fills",
+      "why": "",
+      "logged_utc": "2026-11-26T03:12:57+00:00"
+    }
+  ],
+  "revealed": [
+    {
+      "day": "2026-09-08",
+      "open": 149.0500030517578,
+      "high": 155.0,
+      "low": 145.13999938964844,
+      "close": 153.47000122070312,
+      "volume": 85840700.0
+    },
+    {
+      "day": "2026-09-09",
+      "open": 152.0399932861328,
+      "high": 153.0,
+      "low": 145.5500030517578,
+      "close": 147.5500030517578,
+      "volume": 120593500.0
+    },
+    {
+      "day": "2026-09-10",
+      "open": 145.0,
+      "high": 154.6999969482422,
+      "low": 144.88999938964844,
+      "close": 148.17999267578125,
+      "volume": 118598900.0
+    },
+    {
+      "day": "2026-09-11",
+      "open": 150.00999450683594,
+      "high": 151.85000610351562,
+      "low": 145.9199981689453,
+      "close": 151.2100067138672,
+      "volume": 79273400.0
+    },
+    {
+      "day": "2026-09-14",
+      "open": 147.3300018310547,
+      "high": 152.55999755859375,
+      "low": 146.0,
+      "close": 148.14999389648438,
+      "volume": 67861000.0
+    },
+    {
+      "day": "2026-09-15",
+      "open": 148.4499969482422,
+      "high": 148.5500030517578,
+      "low": 142.8699951171875,
+      "close": 143.49000549316406,
+      "volume": 72746800.0
+    },
+    {
+      "day": "2026-09-16",
+      "open": 144.8800048828125,
+      "high": 153.00999450683594,
+      "low": 144.36000061035156,
+      "close": 150.8800048828125,
+      "volume": 108770000.0
+    },
+    {
+      "day": "2026-09-17",
+      "open": 153.8000030517578,
+      "high": 156.8699951171875,
+      "low": 152.6300048828125,
+      "close": 154.80999755859375,
+      "volume": 83986400.0
+    },
+    {
+      "day": "2026-09-18",
+      "open": 154.60000610351562,
+      "high": 156.60000610351562,
+      "low": 149.92999267578125,
+      "close": 152.7100067138672,
+      "volume": 335670500.0
+    },
+    {
+      "day": "2026-09-21",
+      "open": 154.77000427246094,
+      "high": 158.1300048828125,
+      "low": 151.60000610351562,
+      "close": 151.85000610351562,
+      "volume": 82283700.0
+    },
+    {
+      "day": "2026-09-22",
+      "open": 151.6999969482422,
+      "high": 154.94000244140625,
+      "low": 150.5500030517578,
+      "close": 154.72000122070312,
+      "volume": 59197600.0
+    },
+    {
+      "day": "2026-09-23",
+      "open": 153.27999877929688,
+      "high": 154.25999450683594,
+      "low": 147.88999938964844,
+      "close": 148.36000061035156,
+      "volume": 60641600.0
+    },
+    {
+      "day": "2026-09-24",
+      "open": 148.1999969482422,
+      "high": 149.0,
+      "low": 145.8800048828125,
+      "close": 148.02999877929688,
+      "volume": 72721400.0
+    },
+    {
+      "day": "2026-09-25",
+      "open": 148.3800048828125,
+      "high": 149.6699981689453,
+      "low": 146.0,
+      "close": 148.67999267578125,
+      "volume": 54595200.0
+    }
+  ],
+  "version": "1.2",
+  "account": {
+    "version": "1.2",
+    "created": "2026-11-26T03:11:24+00:00",
+    "starting_cash": 10000.0,
+    "cash": 5222.90727735465,
+    "costs": {
+      "commission": 0.0,
+      "slippage_bps": 5.0
+    },
+    "positions": {
+      "SPCX": {
+        "ticker": "SPCX",
+        "shares": 33.72133166183974,
+        "avg_price": 148.2740969467163,
+        "entry_time": "2026-09-24T14:30:00+00:00",
+        "entry_fees": 0.0
+      }
+    },
+    "closed": [
+      {
+        "ticker": "SPCX",
+        "shares": 33.5290248041117,
+        "entry_price": 149.12452805328368,
+        "entry_time": "2026-09-08T14:30:00+00:00",
+        "exit_price": 145.92700000000002,
+        "exit_time": "2026-09-09T21:00:00+00:00",
+        "fees": 0.0
+      },
+      {
+        "ticker": "SPCX",
+        "shares": 34.49407151399247,
+        "entry_price": 144.9524448852539,
+        "entry_time": "2026-09-16T14:30:00+00:00",
+        "exit_price": 154.52270610046386,
+        "exit_time": "2026-09-18T14:30:00+00:00",
+        "fees": 0.0
+      }
+    ]
+  }
+}
