@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+papertrade_state.json
+papertrade_state.json.tmp
